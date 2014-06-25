@@ -162,7 +162,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>280</real>
+							<real>261</real>
 							<real>92</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -527,8 +527,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -598,7 +596,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>2.2000000476837158</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
