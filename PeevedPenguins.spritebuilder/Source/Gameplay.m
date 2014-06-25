@@ -13,6 +13,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
+    CCNode *_contentNode;
 }
 
 - (void)didLoadFromCCB {
@@ -22,10 +23,10 @@
     [_levelNode addChild:level];
 }
 
-// called on every touch in this scene
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    // called on every touch in this scene
+    - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [self launchPenguin];
-}
+    }
 
 - (void)launchPenguin {
     // loads the Penguin.ccb we have set up in Spritebuilder
@@ -44,8 +45,7 @@
     // ensure followed object is in visible are when starting
     self.position = ccp(0, 0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [self runAction:follow];
-}
+    [_contentNode runAction:follow];}
 
 - (void)retry {
     // reload this level
