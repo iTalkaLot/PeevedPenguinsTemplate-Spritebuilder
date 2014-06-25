@@ -71,7 +71,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>27</real>
+							<real>11</real>
 							<real>128.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -133,7 +133,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>121</real>
+							<real>85</real>
 							<real>16.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -195,8 +195,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>152</real>
-							<real>71.5</real>
+							<real>52</real>
+							<real>72.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -257,8 +257,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>27</real>
-							<real>58</real>
+							<real>11.000000953674316</real>
+							<real>57</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -271,7 +271,7 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
+							<real>0.51741355657577515</real>
 							<real>0.5</real>
 						</array>
 					</dict>
@@ -346,8 +346,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>156</real>
-							<real>28</real>
+							<real>119.00000762939453</real>
+							<real>30</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -443,8 +443,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>87.999992370605469</real>
-							<real>33</real>
+							<real>53.999996185302734</real>
+							<real>32</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -502,11 +502,11 @@
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string></string>
+		<string>Gameplay</string>
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
-		<string></string>
+		<string>_levelNode</string>
 		<key>memberVarAssignmentType</key>
 		<integer>1</integer>
 		<key>properties</key>
@@ -571,8 +571,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
